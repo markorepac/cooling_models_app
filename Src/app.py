@@ -17,7 +17,7 @@ from plotly.subplots import make_subplots
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.DARKLY])
 server = app.server
 
-# Define the layout of the app
+# Define the layout of the ap
 app.layout = html.Div(style={'margin':'15px'},
     children=[
        
