@@ -1,7 +1,6 @@
 import dash
 from dash import dcc, html, Input, Output, callback, State, dash_table, Dash
 import dash_bootstrap_components as dbc
-from dash.exceptions import PreventUpdate
 
 import base64
 import io
@@ -10,9 +9,6 @@ from pm import plate
 from hscm import half
 import numpy as np
 import pandas as pd
-import scipy as sp
-from datetime import datetime
-import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
