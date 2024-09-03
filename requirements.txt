@@ -4,6 +4,6 @@ matplotlib==3.9.2
 numpy==2.1.0
 pandas==2.2.2
 scipy==1.14.1
-~atplotlib==3.4.1
+matplotlib==3.4.1
 gunicorn
 dash-tools
